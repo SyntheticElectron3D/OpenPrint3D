@@ -1,11 +1,14 @@
 {
   "op3d_schema": "filament",
   "op3d_schema_version": "0.1.0",
-
   "id": "Polymaker/PolyLite-PLA",
+
   "brand": "Polymaker",
   "name": "PolyLite PLA",
   "material": "PLA",
+  "color": "White",
+  "diameter": 1.75,
+  "density": 1.24,
 
   "nozzle": {
     "min": 195,
@@ -25,16 +28,38 @@
     "recommended": 100
   },
 
+  "drying": {
+    "temperature": 45,
+    "duration_hours": 6
+  },
+
+  "environment": {
+    "sensitive_to_moisture": false,
+    "enclosure_recommended": false,
+    "max_ambient_temp": 35
+  },
+
   "external_ids": {
-    "open_print_tag": "opt:polymaker:polylite-pla:001",
+    "open_print_tag": "opt:polymaker:polylite-pla:white",
     "gtin": "0693892100000",
     "manufacturer_sku": "PM70101"
   },
 
   "links": {
-    "datasheet": "https://example.com/polylite-pla",
+    "datasheet": "https://example.com/polymaker/polylite-pla",
     "manufacturer": "https://polymaker.com/"
   },
 
-  "notes": "Baseline PolyLite PLA profile. Works in enclosed printers at moderate speeds with full cooling."
+  "tags": [
+    "PLA",
+    "general_use",
+    "easy_printing"
+  ],
+
+  "notes": "Baseline PolyLite PLA profile suitable for enclosed and open printers at moderate to high speeds with good cooling.",
+
+  "x_cura": {},
+  "x_prusaslicer": {},
+  "x_orca": {},
+  "x_bambu": {}
 }
