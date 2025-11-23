@@ -1,2 +1,2 @@
 # OpenPrint3D
-PoC for open 3D printer and filament spec
+Concept for an open printer / filament / process structure for use accross 3D printing slicers.  
