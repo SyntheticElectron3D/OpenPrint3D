@@ -23,7 +23,8 @@ Each *complete* profile is assembled by combining:
 These three components map into a slicer's internal configuration model.
 
 
-<img width="1000" height="900" alt="openprint3d_diagram_large" src="https://github.com/user-attachments/assets/0842e931-c80e-4230-ae13-283568df9497" />
+<img width="1000" height="900" alt="image" src="https://github.com/user-attachments/assets/4f2a3860-e294-4f3d-8e21-fe27effea8b9" />
+
 
 **Key Idea:**  
 OpenPrint3D does *not* replace slicers — it provides a clean, neutral, shared
