@@ -1,5 +1,15 @@
 # Contributing to OpenPrint3D
 
+## Long-term Stewardship & Project Partners
+
+OpenPrint3D is an ambitious standardization effort, and while I initiated the project, I don’t expect to carry it alone.
+
+Due to limited bandwidth (especially during treatment), I’m actively looking for trusted partners and maintainers who can help drive the project forward and represent the community.
+
+If you’re interested in helping shape the long-term governance of the project, please reach out or open a discussion thread.
+
+## How to Contribute 
+
 Thank you for your interest in contributing!  
 OpenPrint3D is an early-stage, community-driven project that defines open, slicer-independent formats for:
 
@@ -14,11 +24,12 @@ To keep contributions consistent and interoperable, please follow the guidelines
 ## 📁 Repository Structure
 
 ```text
-schema/        → JSON Schema definitions (printer, filament, process)
-printer/       → Printer profile instances
-filament/      → Filament profile instances
-process/       → Process profile instances
-tools/         → Validation and development helpers
+filament/          → Filament profile instances
+printer/           → Printer profile instances
+process/           → Process profile instances
+profile-templates/ → Profile template files
+schema/            → JSON Schema definitions (printer, filament, process)
+tools/             → Validation and development helpers
 ```
 
 ✅ 1. Install Dependencies
