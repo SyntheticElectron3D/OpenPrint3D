@@ -49,12 +49,11 @@
         "website": {
           "type": "string",
           "format": "uri",
-          "description": "Website of the filament profile. (optional)"
+          "description": "Website of the printer profile. (optional)"
         },
-        "email": {      
+        "contact": {      
           "type": "string",
-          "format": "email",
-          "description": "Email address of the maintainer. (optional)"
+          "description": "Contact information of the maintainer. (optional)"
         }
       },
       "additionalProperties": false
